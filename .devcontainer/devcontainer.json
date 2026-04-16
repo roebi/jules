@@ -1,6 +1,6 @@
 {
   "name": "Roebi Game Development",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-24-bullseye",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24-bullseye",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "24"
