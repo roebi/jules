@@ -1,1 +1,10 @@
 node_modules
+dist
+dist-ssr
+*.local
+playwright-report
+test-results
+*.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts

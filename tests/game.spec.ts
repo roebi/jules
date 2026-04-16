@@ -17,7 +17,7 @@ test.describe('Roebi Game Flow', () => {
     test('should play through a level and show completion', async ({ page }) => {
         await page.getByRole('button', { name: 'Level 1-1' }).click();
         for (let i = 0; i < 3; i++) {
-            await page.locator('button.bg-yellow-200').first.click();
+            await page.locator('button.bg-yellow-200').first().click();
         }
         await expect(page.getByText('Level Complete!')).toBeVisible();
     });
